@@ -100,7 +100,7 @@ def resource_path(relative_path):
 class FileAnalyzer:
     def __init__(self, root):
         self.root = root
-        self.root.title("Badger - Crypto Data Extraction")
+        self.root.title("Badger 1.0 - Crypto Data Extraction")
         self.root.geometry("400x390")
         self.root.resizable(False, False)
         
@@ -147,7 +147,7 @@ class FileAnalyzer:
 
         # Titolo principale
         ttk.Label(header_frame, 
-                 text="Badger - Crypto Data Extraction", 
+                 text="Badger 1.0 - Crypto Data Extraction", 
                  font=("Arial", 16, "bold")).pack(pady=(0, 10))
 
         # Sottotitolo con i formati supportati
